@@ -1,0 +1,180 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.my_menu{
+    position:absolute;
+    width: 100%;
+    height: auto;
+    background-color:dodgerblue; 
+}
+.menu li{
+    list-style: none;
+    width: 160px;
+    height: 60px;
+    background-color: #2196f3;
+    margin-left: 40px;
+    text-align: center;
+    line-height: 60px;
+    float: left;
+
+
+}
+.menu li:hover{
+    background: black;
+}
+.menu li a:hover{
+    color: aqua;
+}
+.menu li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.logo_li:hover{
+    width: 100;
+}
+.logo_li:hover{
+    background-color: #2196f3 !important;
+}
+.logo_li a{
+    font-size: 20px;
+    background-color: orangered;
+}
+.logo_li a:hover{
+    color: white !important;
+}
+
+.menu ul li{
+    margin: 0px;
+}
+.menu ul{
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+}
+
+/*banner*/
+#banner{
+    width: 100%;
+}
+#banner img{
+    width: 100%;
+}
+/*why choose us*/
+#why_choose{
+    width: 100%;
+    text-align: center;
+}
+#why_choose h1{
+    margin: 0 auto;
+    width: 300px;
+    font-size: 30px;
+    color: red;
+    border-bottom: 2px solid red;
+}
+.div_section1{
+    width: 20%;
+    height: auto;
+    margin: 30px;
+    float: left;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border: 1px solid gray;
+    margin: 10px auto;
+    line-height: 80px;
+    font-size: 60px;
+    background-color: darkred;
+    color: white;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
+.icon:hover{
+    font-size: 50px;
+}
+
+/*section2*/
+.section2{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.section2 h1{
+    margin: 0 auto;
+    width: 400px;
+    font-size: 30px;
+    color: red;
+    border-bottom: 2px solid red;
+}
+.div_section2{
+    width: 18%;
+    height: 300px;
+    margin: 100px;
+    float: left;
+}
+.div_section2 img{
+    width: 100%;
+}
+/*footer*/
+.footer{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.footer_div{
+    width: 20%;
+    height: auto;
+    margin: 30px;
+    float: left;
+}
+.footer_div h1{
+color: red;
+}
+.footer_div p{
+    color: white;
+}
+.footer_div button{
+    margin-top: 20px;
+    background-color: red;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 40px;
+}
+.footer_div ul li{
+    list-style: none;
+}
+.footer_div ul li a{
+color: white;
+font-size: 18px;
+text-decoration: none;
+font-weight: bold;
+}
+.social_link{
+    color: white;
+}
+.under_footer{
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: white;
+}
+.footer1{
+    width: 50%;
+    float: left;
+}
+.footer1 p{
+    color: black;
+}
